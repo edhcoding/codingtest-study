@@ -16,3 +16,11 @@ function solution(num) {
 
 solution(3); // "Odd"
 solution(4); // "Even"
+
+/**
+ * 시간 복잡도: O(1)
+ * - 조건문 하나만 있기 때문에
+ *
+ * 공간 복잡도: O(1)
+ * - 누적값만 저장
+ */

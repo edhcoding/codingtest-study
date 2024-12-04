@@ -7,3 +7,11 @@ function solution(arr) {
 
 solution([1, 2, 3, 4]); // 2.5
 solution([5, 5]); // 5
+
+/**
+ * 시간 복잡도: O(N)
+ * - reduce로 배열 한 번 순회하기 때문에
+ *
+ * 공간 복잡도: O(1)
+ * - 누적값만 저장
+ */
