@@ -63,124 +63,110 @@ class MinHeap {
     // 오른쪽 자식 노드의 인덱스는 2 * index + 2입니다.
   }
 
-  // swap 메서드는 힙의 두 노드의 값을 교환합니다.
+  // swap 메서드는 힙의 두 노드의 값을 교환합니다. (구조분해 할당 사용)
   swap(index1, index2) {
-    const temp = this.heap[index1];
-    this.heap[index1] = this.heap[index2];
-    this.heap[index2] = temp;
-    // 임시 변수 temp를 사용하여 index1의 값을 저장합니다.
-    // 그리고 index1에 index2의 값을 할당한 후 index2에 temp의 값을 할당합니다.
+    [this.heap[index1], this.heap[index2]] = [
+      this.heap[index2],
+      this.heap[index1],
+    ];
   }
 
-  // push 메서드는 새로운 요소를 힙에 삽입합니다.
+  // push 메서드는 새로운 값을 힙의 마지막에 추가합니다.
   push(value) {
     this.heap.push(value);
+    this.heapifyUp(); // 힙 속성을 유지하기 위해 상향 재정렬
+  }
 
-    // currentIndex는 삽입된 요소의 인덱스이고, parentIndex는 부모 노드의 인덱스입니다.
+  // 새로 추가된 값을 올바른 위치로 이동 (상향 정렬)
+  heapifyUp() {
+    // 새로 추가된 값의 인덱스부터 시작합니다.
     let currentIndex = this.heap.length - 1;
-    let parentIndex = this.getParentIndex(currentIndex);
-
-    // 삽입된 요소가 루트 노드가 아니고, 부모 노드의 값이 삽입된 요소의 값보다 크다면 교환합니다.
-    // 교환 후에는 currentIndex를 parentIndex로 업데이트하고, 다시 parentIndex를 구합니다.
-    while (
-      currentIndex > 0 &&
-      this.heap[parentIndex] > this.heap[currentIndex]
-    ) {
+    // 루트에 도달하거나 힙 특성이 만족될 때까지 반복합니다.
+    while (currentIndex > 0) {
+      const parentIndex = this.getParentIndex(currentIndex);
+      // 부모가 현재 노드보다 작거나 같으면 힙 속성 만족
+      if (this.heap[parentIndex] <= this.heap[currentIndex]) break;
+      // 부모 노드가 더 크다면 두 노드를 교환합니다.
       this.swap(currentIndex, parentIndex);
+      // 부모 노드로 이동하여 계속 검사합니다.
       currentIndex = parentIndex;
-      parentIndex = this.getParentIndex(currentIndex);
     }
-    // 이 과정을 반복하여 힙의 속성을 유지합니다.
   }
 
-  // pop 메서드는 힙에서 가장 작은 요소(루트 노드)를 꺼내고 제거합니다.
+  // pop 메서드는 힙이 비어있거나 하나의 요소만 있다면 그대로 반환합니다.
   pop() {
-    // 힙이 비어있다면 null을 반환합니다.
-    if (this.isEmpty()) return null;
+    if (this.heap.length <= 1) return this.heap.pop();
 
-    // 힙에 요소가 하나밖에 없다면 해당 요소를 제거하고 반환합니다.
-    if (this.heap.length === 1) return this.heap.pop();
-
-    // 루트 노드의 값을 root 변수에 저장하고, 힙의 마지막 요소를 루트 노드로 이동시킵니다.
-    const root = this.heap[0];
+    // 최소값(루트)을 저장해둡니다.
+    const min = this.heap[0];
+    // 마지막 노드를 루트로 이동시킵니다.
     this.heap[0] = this.heap.pop();
-
-    // currentIndex는 현재 노드의 인덱스이고, leftChildIndex와 rightChildIndex는 각각 왼쪽과 오른쪽 자식 노드의 인덱스입니다.
-    let currentIndex = 0;
-    let leftChildIndex = this.getLeftChildIndex(currentIndex);
-    let rightChildIndex = this.getRightChildIndex(currentIndex);
-
-    // 현재 노드의 값이 왼쪽 자식이나 오른쪽 자식보다 크다면 교환이 필요합니다.
-    while (
-      (leftChildIndex < this.heap.length &&
-        this.heap[currentIndex] > this.heap[leftChildIndex]) ||
-      (rightChildIndex < this.heap.length &&
-        this.heap[currentIndex] > this.heap[rightChildIndex])
-    ) {
-      // 왼쪽 자식과 오른쪽 자식 중 더 작은 값을 가진 노드와 교환합니다.
-      const smallerChildIndex =
-        rightChildIndex >= this.heap.length ||
-        this.heap[leftChildIndex] < this.heap[rightChildIndex]
-          ? leftChildIndex
-          : rightChildIndex;
-      this.swap(currentIndex, smallerChildIndex);
-
-      // 교환 후에는 currentIndex를 교환한 자식 노드의 인덱스로 업데이트하고, 다시 leftChildIndex와 rightChildIndex를 구합니다.
-      currentIndex = smallerChildIndex;
-      leftChildIndex = this.getLeftChildIndex(currentIndex);
-      rightChildIndex = this.getRightChildIndex(currentIndex);
-
-      // 이 과정을 반복하여 힙의 속성을 유지합니다.
-    }
-
-    // 마지막으로 제거된 루트 노드의 값 root를 반환합니다.
-    return root;
+    // 힙의 특성을 유지하기 위해 하향식으로 재정렬합니다.
+    this.heapifyDown();
+    // 저장해둔 최소값을 반환합니다.
+    return min;
   }
 
-  // isEmpty 메서드는 힙이 비어있는지 확인합니다.
-  isEmpty() {
-    // 힙의 길이가 0이면 true를 반환하고, 그렇지 않으면 false를 반환합니다.
-    return this.heap.length === 0;
+  // 루트에서 시작하여 올바른 위치로 이동 (하향 정렬)
+  heapifyDown() {
+    let currentIndex = 0;
+    while (true) {
+      let smallestIndex = currentIndex;
+      const leftIndex = this.getLeftChildIndex(currentIndex);
+      const rightIndex = this.getRightChildIndex(currentIndex);
+
+      // 왼쪽 자식이 더 작으면 교환 대상을 왼쪽자식으로 변경
+      if (
+        leftIndex < this.heap.length &&
+        this.heap[leftIndex] < this.heap[smallestIndex]
+      ) {
+        smallestIndex = leftIndex;
+      }
+      // 오른쪽 자식이 더 작으면 교환 대상을 오른쪽자식으로 변경
+      if (
+        rightIndex < this.heap.length &&
+        this.heap[rightIndex] < this.heap[smallestIndex]
+      ) {
+        smallestIndex = rightIndex;
+      }
+
+      // 교환이 필요 없으면 종료
+      if (smallestIndex === currentIndex) break;
+      // 현재 노드와 가장 작은 자식을 교환합니다.
+      this.swap(currentIndex, smallestIndex);
+      // 자식 노드로 이동하여 계속 검사합니다.
+      currentIndex = smallestIndex;
+    }
+  }
+
+  // 최소값(루트) 확인
+  peek() {
+    return this.heap[0];
+  }
+
+  // 힙의 크기 반환
+  size() {
+    return this.heap.length;
   }
 }
 
-// solution 함수는 주어진 스코빌 지수 배열 scoville과 목표 스코빌 지수 K를 받습니다.
-// 그리고 모든 음식의 스코빌 지수를 K 이상으로 만들기 위해 섞어야 하는 최소 횟수를 반환합니다.
 function solution(scoville, K) {
-  // 먼저 MinHeap 클래스의 인스턴스 minHeap을 생성합니다.
   const minHeap = new MinHeap();
+  // 모든 스코빌 지수를 힙에 추가
+  scoville.forEach((s) => minHeap.push(s));
 
-  // for 반복문을 사용하여 scoville 배열의 모든 요소를 minHeap에 삽입합니다.
-  for (let i = 0; i < scoville.length; i++) {
-    minHeap.push(scoville[i]);
-  }
-
-  // count 변수를 초기화하여 섞은 횟수를 저장합니다.
   let count = 0;
-
-  // while 반복문을 사용하여 minHeap의 루트 노드(가장 작은 스코빌 지수)가 K 미만인 동안 반복합니다.
-  while (minHeap.heap[0] < K) {
-    // 만약 minHeap에 요소가 1개밖에 없다?
-    // 그러면 합할 개수 부족으로 모든 음식을 K 이상으로 만들 수 없으므로 -1을 반환합니다.
-    if (minHeap.heap.length === 1) return -1;
-
-    // minHeap에서 가장 작은 스코빌 지수 first와 두 번째로 작은 스코빌 지수 second를 꺼냅니다.
-    const first = minHeap.pop();
-    const second = minHeap.pop();
-
-    // 섞은 음식의 스코빌 지수 mixed를 계산합니다.
-    const mixed = first + second * 2;
-
-    // mixed를 다시 minHeap에 삽입합니다.
-    minHeap.push(mixed);
-
-    // 섞은 횟수 count를 1 증가시킵니다.
+  // 가장 작은 값이 K보다 작고, 섞을 수 있는 음식이 2개 이상 있는 동안 반복
+  while (minHeap.peek() < K && minHeap.size() > 1) {
+    const first = minHeap.pop(); // 가장 맵지 않은 음식
+    const second = minHeap.pop(); // 두 번째로 맵지 않은 음식
+    minHeap.push(first + second * 2); // 두 음식을 섞어서 새로운 음식 생성하고 힙에 추가
+    // 섞은 횟수를 증가시킵니다.
     count++;
   }
 
-  // while 반복문이 종료되면 모든 음식의 스코빌 지수가 K 이상이 된 것입니다.
-  // 그러므로 섞은 횟수 count를 반환합니다.
-  return count;
+  // 모든 음식의 스코빌 지수가 K 이상이면 횟수를, 아니면 -1 반환
+  return minHeap.peek() >= K ? count : -1;
 }
 
 /**
