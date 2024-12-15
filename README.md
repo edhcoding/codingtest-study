@@ -85,3 +85,11 @@
 | 이용환 | • [호텔 대실](https://school.programmers.co.kr/learn/courses/30/lessons/155651) <br> • [문자열 내림차순으로 배치하기](https://school.programmers.co.kr/learn/courses/30/lessons/12917) |  |
 | 장소희 | - | 일정 |
 | 이인지 | - | 일정 |
+
+### 4회차 (24.12.12 목 09:00)
+| 참여자 | 문제 | 비고 |
+|:---:|:---|:---:|
+| 은동혁 | • [두 정수 사이의 합](https://school.programmers.co.kr/learn/courses/30/lessons/12912) <br> • [문자열 내 p와 y의 개수](https://school.programmers.co.kr/learn/courses/30/lessons/12916) <br> • [자연수 뒤집어 배열로 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12932) <br> • [정수 내림차순으로 배치하기](https://school.programmers.co.kr/learn/courses/30/lessons/12933)|  |
+| 이용환 | - |  |
+| 장소희 | - | 일정 |
+| 이인지 | - | 일정 |
