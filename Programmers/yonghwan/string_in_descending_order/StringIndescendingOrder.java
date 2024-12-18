@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 //문자열 내림차순으로 배치하기
-public class Problem12 {
+public class StringIndescendingOrder {
     public static void solution(String s) {
         ArrayList<Integer> sNum = new ArrayList<>();
         StringBuilder result = new StringBuilder();
