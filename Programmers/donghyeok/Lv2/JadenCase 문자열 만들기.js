@@ -46,6 +46,7 @@ function solution(s) {
  * - map으로 생성된 새 배열: O(n)
  * - 최종 문자열: O(n)
  * - 전체: O(n) (동시에 사용되는 최대 공간)
+ *
  */
 
 solution("3people unFollowed me"); // "3people Unfollowed Me"
