@@ -3,7 +3,7 @@ package skill_level_test.level1;
 import java.util.Arrays;
 import java.util.PriorityQueue;
 
-public class Problem13 {
+public class BookingHotel {
     public static void solution(String[][] book_times) {
         int[][] booked = new int[book_times.length][2];
         for (int i = 0; i < book_times.length; i++) {
