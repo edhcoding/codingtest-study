@@ -101,3 +101,11 @@
 | 이용환 | • [의상](https://school.programmers.co.kr/learn/courses/30/lessons/42578) <br> • [ThreeSum](https://leetcode.com/problems/3sum-closest/) |  |
 | 장소희 | - | 일정 |
 | 이인지 | - | 일정 |
+
+### 6회차 (24.12.19 목 09:00)
+| 참여자 | 문제 | 비고 |
+|:---:|:---|:---:|
+| 은동혁 | • [영어 끝말잇기](https://school.programmers.co.kr/learn/courses/30/lessons/12981) <br> • [음양 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/76501) <br> • [없는 숫자 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/86051) <br> • [제일 작은 수 제거하기](https://school.programmers.co.kr/learn/courses/30/lessons/12935)|  |
+| 이용환 | • [점프와 순간 이동](https://school.programmers.co.kr/learn/courses/30/lessons/12980) <br> • [영어 끝말잇기](https://school.programmers.co.kr/learn/courses/30/lessons/12981) <br> • [의상](https://school.programmers.co.kr/learn/courses/30/lessons/42578) |  |
+| 장소희 | - | 일정 |
+| 이인지 | - | 일정 |
