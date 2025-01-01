@@ -54,6 +54,7 @@ function solution(skill, skill_trees) {
  * - split 배열 O(m)
  * - filter 배열 O(m)
  * 따라서 최종 공간 복잡도 O(m)
+ *
  */
 
 solution("CBD", ["BACDE", "CBADF", "AECB", "BDA"]); // 2
