@@ -109,3 +109,11 @@
 | 이용환 | • [점프와 순간 이동](https://school.programmers.co.kr/learn/courses/30/lessons/12980) <br> • [영어 끝말잇기](https://school.programmers.co.kr/learn/courses/30/lessons/12981) <br> • [의상](https://school.programmers.co.kr/learn/courses/30/lessons/42578) |  |
 | 장소희 | - | 일정 |
 | 이인지 | - | 일정 |
+
+### 7회차 (24.12.28 토 09:00)
+| 참여자 | 문제 | 비고 |
+|:---:|:---|:---:|
+| 은동혁 | • [스킬트리](https://school.programmers.co.kr/learn/courses/30/lessons/49993) <br> • [올바른 괄호](https://school.programmers.co.kr/learn/courses/30/lessons/12909) <br> • [최솟값 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12941) <br> • [JadenCase 문자열 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12951) <br> • [다리를 지나는 트럭](https://school.programmers.co.kr/learn/courses/30/lessons/42583)|  |
+| 이용환 | • [스킬트리](https://school.programmers.co.kr/learn/courses/30/lessons/49993) <br> • [피로도](https://school.programmers.co.kr/learn/courses/30/lessons/87946) <br> • [최솟값 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12941) <br> • [JadenCase 문자열 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12951) |  |
+| 장소희 | - | 일정 |
+| 이인지 | - | 일정 |
