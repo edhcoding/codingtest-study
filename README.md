@@ -117,3 +117,19 @@
 | 이용환 | • [스킬트리](https://school.programmers.co.kr/learn/courses/30/lessons/49993) <br> • [피로도](https://school.programmers.co.kr/learn/courses/30/lessons/87946) <br> • [최솟값 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12941) <br> • [JadenCase 문자열 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12951) |  |
 | 장소희 | - | 일정 |
 | 이인지 | - | 일정 |
+
+### 8회차 (25.01.01 수 09:00)
+| 참여자 | 문제 | 비고 |
+|:---:|:---|:---:|
+| 은동혁 | • [숫자의 표현](https://school.programmers.co.kr/learn/courses/30/lessons/12924) <br> • [이진 변환 반복하기](https://school.programmers.co.kr/learn/courses/30/lessons/70129) <br> • [택배 상자](https://school.programmers.co.kr/learn/courses/30/lessons/131704) |  |
+| 이용환 | - | 참여 |
+| 장소희 | - | 일정 |
+| 이인지 | - | 일정 |
+
+### 9회차 (25.01.07 화 09:00)
+| 참여자 | 문제 | 비고 |
+|:---:|:---|:---:|
+| 은동혁 | • [모음 사전](https://school.programmers.co.kr/learn/courses/30/lessons/84512) <br> • [다음 큰 숫자](https://school.programmers.co.kr/learn/courses/30/lessons/12911) <br> • [피보나치 수](https://school.programmers.co.kr/learn/courses/30/lessons/12945) |  |
+| 이용환 | - | 참여 |
+| 장소희 | - | 일정 |
+| 이인지 | - | 일정 |
