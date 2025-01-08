@@ -40,6 +40,7 @@ function solution(A, B) {
  *
  * 공간 복잡도: O(log n)
  * - sort() 메서드는 퀵소트 기반으로 구현되어 있어 실제로는 O(log n)의 공간을 사용합니다.
+ *
  */
 
 solution([1, 4, 2], [5, 4, 4]); // 29
