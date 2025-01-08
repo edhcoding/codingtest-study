@@ -1,4 +1,4 @@
-package vowel_dictionary;
+package 모음사전;
 
 public class VowelDictionary {
     private static int count = 0;
@@ -23,7 +23,7 @@ public class VowelDictionary {
         for (char c : new char[] {'A', 'E', 'I', 'O', 'U'}) {
             int result = words(curr + c, word);
             if (result > 0) {
-                return result; // 정답을 찾은 경우 즉시 반환
+                return result;
             }
         }
         return 0;
