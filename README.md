@@ -109,3 +109,35 @@
 | 이용환 | • [점프와 순간 이동](https://school.programmers.co.kr/learn/courses/30/lessons/12980) <br> • [영어 끝말잇기](https://school.programmers.co.kr/learn/courses/30/lessons/12981) <br> • [의상](https://school.programmers.co.kr/learn/courses/30/lessons/42578) |  |
 | 장소희 | - | 일정 |
 | 이인지 | - | 일정 |
+
+### 7회차 (24.12.28 토 09:00)
+| 참여자 | 문제 | 비고 |
+|:---:|:---|:---:|
+| 은동혁 | • [스킬트리](https://school.programmers.co.kr/learn/courses/30/lessons/49993) <br> • [올바른 괄호](https://school.programmers.co.kr/learn/courses/30/lessons/12909) <br> • [최솟값 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12941) <br> • [JadenCase 문자열 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12951) <br> • [다리를 지나는 트럭](https://school.programmers.co.kr/learn/courses/30/lessons/42583)|  |
+| 이용환 | • [스킬트리](https://school.programmers.co.kr/learn/courses/30/lessons/49993) <br> • [피로도](https://school.programmers.co.kr/learn/courses/30/lessons/87946) <br> • [최솟값 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12941) <br> • [JadenCase 문자열 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12951) |  |
+| 장소희 | - | 일정 |
+| 이인지 | - | 일정 |
+
+### 8회차 (25.01.01 수 09:00)
+| 참여자 | 문제 | 비고 |
+|:---:|:---|:---:|
+| 은동혁 | • [숫자의 표현](https://school.programmers.co.kr/learn/courses/30/lessons/12924) <br> • [이진 변환 반복하기](https://school.programmers.co.kr/learn/courses/30/lessons/70129) <br> • [택배 상자](https://school.programmers.co.kr/learn/courses/30/lessons/131704) |  |
+| 이용환 | • [다리를 지나는 트럭](https://school.programmers.co.kr/learn/courses/30/lessons/42583) <br> • [모음 사전](https://school.programmers.co.kr/learn/courses/30/lessons/84512) |  |
+| 장소희 | - | 일정 |
+| 이인지 | - | 일정 |
+
+### 9회차 (25.01.07 화 09:00)
+| 참여자 | 문제 | 비고 |
+|:---:|:---|:---:|
+| 은동혁 | • [모음 사전](https://school.programmers.co.kr/learn/courses/30/lessons/84512) <br> • [다음 큰 숫자](https://school.programmers.co.kr/learn/courses/30/lessons/12911) <br> • [피보나치 수](https://school.programmers.co.kr/learn/courses/30/lessons/12945) |  |
+| 이용환 | • [피보나치 수](https://school.programmers.co.kr/learn/courses/30/lessons/12945) <br> • [거리두기 확인하기](https://school.programmers.co.kr/learn/courses/30/lessons/81302) |  |
+| 장소희 | - | 일정 |
+| 이인지 | - | 일정 |
+
+### 10회차 (25.01.09 목 09:00)
+| 참여자 | 문제 | 비고 |
+|:---:|:---|:---:|
+| 은동혁 | • [가장 큰 수](https://school.programmers.co.kr/learn/courses/30/lessons/42746) <br> • [짝지어 제거하기](https://school.programmers.co.kr/learn/courses/30/lessons/12973) <br> • [카펫](https://school.programmers.co.kr/learn/courses/30/lessons/42842) |  |
+| 이용환 | - | 참여 |
+| 장소희 | - | 일정 |
+| 이인지 | - | 일정 |
