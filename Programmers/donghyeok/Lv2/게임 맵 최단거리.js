@@ -37,7 +37,7 @@ function solution(maps) {
   // 상하좌우 이동을 위한 방향 배열
   const dx = [-1, 1, 0, 0];
   const dy = [0, 0, -1, 1];
-
+  
   // BFS를 위한 큐 생성
   const queue = [[0, 0, 1]]; // [x, y, distance]
   maps[0][0] = 0; // 방문 표시
