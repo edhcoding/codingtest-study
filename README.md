@@ -138,6 +138,30 @@
 | 참여자 | 문제 | 비고 |
 |:---:|:---|:---:|
 | 은동혁 | • [가장 큰 수](https://school.programmers.co.kr/learn/courses/30/lessons/42746) <br> • [짝지어 제거하기](https://school.programmers.co.kr/learn/courses/30/lessons/12973) <br> • [카펫](https://school.programmers.co.kr/learn/courses/30/lessons/42842) |  |
-| 이용환 | - | 참여 |
+| 이용환 | • [체육복](https://school.programmers.co.kr/learn/courses/30/lessons/42862) <br> • [구명보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885) <br> • [조이스틱](https://school.programmers.co.kr/learn/courses/30/lessons/42860) |  |
+| 장소희 | - | 일정 |
+| 이인지 | - | 일정 |
+
+### 11회차 (25.01.13 월 09:00)
+| 참여자 | 문제 | 비고 |
+|:---:|:---|:---:|
+| 은동혁 | • [게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844) <br> • [구명보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885) <br> • [멀리뛰기](https://school.programmers.co.kr/learn/courses/30/lessons/12914) |  |
+| 이용환 | • [멀리뛰기](https://school.programmers.co.kr/learn/courses/30/lessons/12914) <br> • [큰 수 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/42883) <br> • [게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844) |  |
+| 장소희 | - | 일정 |
+| 이인지 | - | 일정 |
+
+### 12회차 (25.01.16 목 09:00)
+| 참여자 | 문제 | 비고 |
+|:---:|:---|:---:|
+| 은동혁 | • [오픈채팅방](https://school.programmers.co.kr/learn/courses/30/lessons/42862) <br> • [단속 카메라](https://school.programmers.co.kr/learn/courses/30/lessons/42884) |  |
+| 이용환 | - | 일정 |
+| 장소희 | - | 일정 |
+| 이인지 | - | 일정 |
+
+### 13회차 (25.01.20 월 09:00)
+| 참여자 | 문제 | 비고 |
+|:---:|:---|:---:|
+| 은동혁 | • [귤 고르기](https://school.programmers.co.kr/learn/courses/30/lessons/138476) <br> • [점프와 순간 이동](https://school.programmers.co.kr/learn/courses/30/lessons/12980) <br> • [N개의 최소공배수](https://school.programmers.co.kr/learn/courses/30/lessons/12953) |  |
+| 이용환 | - | 일정 |
 | 장소희 | - | 일정 |
 | 이인지 | - | 일정 |
