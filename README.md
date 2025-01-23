@@ -165,3 +165,11 @@
 | 이용환 | - | 일정 |
 | 장소희 | - | 일정 |
 | 이인지 | - | 일정 |
+
+### 14회차 (25.01.23 목 09:00)
+| 참여자 | 문제 | 비고 |
+|:---:|:---|:---:|
+| 은동혁 | • [연속 부분 수열 합의 개수](https://school.programmers.co.kr/learn/courses/30/lessons/131701) <br> • [예상 대진표](https://school.programmers.co.kr/learn/courses/30/lessons/12985) <br> • [주식 가격](https://school.programmers.co.kr/learn/courses/30/lessons/42584) |  |
+| 이용환 | - | 일정 |
+| 장소희 | - | 일정 |
+| 이인지 | - | 일정 |
