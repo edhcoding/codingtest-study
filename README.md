@@ -173,3 +173,11 @@
 | 이용환 | - | 일정 |
 | 장소희 | - | 일정 |
 | 이인지 | - | 일정 |
+
+### 15회차 (25.02.03 월 09:00)
+| 참여자 | 문제 | 비고 |
+|:---:|:---|:---:|
+| 은동혁 | • [괄호 회전하기](https://school.programmers.co.kr/learn/courses/30/lessons/76502) <br> • [할인 행사](https://school.programmers.co.kr/learn/courses/30/lessons/131127) <br> • [N-Queen](https://school.programmers.co.kr/learn/courses/30/lessons/12952) |  |
+| 이용환 | - | 일정 |
+| 장소희 | - | 일정 |
+| 이인지 | - | 일정 |
