@@ -181,3 +181,11 @@
 | 이용환 | - | 일정 |
 | 장소희 | - | 일정 |
 | 이인지 | - | 일정 |
+
+### 16회차 (25.02.06 목 09:00)
+| 참여자 | 문제 | 비고 |
+|:---:|:---|:---:|
+| 은동혁 | • [행렬의 곱셈](https://school.programmers.co.kr/learn/courses/30/lessons/12949) <br> • [n^2 배열 자르기](https://school.programmers.co.kr/learn/courses/30/lessons/87390) <br> • [베스트앨범](https://school.programmers.co.kr/learn/courses/30/lessons/42579) |  |
+| 이용환 | - | 일정 |
+| 장소희 | - | 일정 |
+| 이인지 | - | 일정 |
