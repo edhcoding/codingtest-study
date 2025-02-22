@@ -12,10 +12,10 @@
 ## 스터디 소개
 - 알고리즘 문제 풀이 및 코드 리뷰를 통한 실력 향상
 - 프로그래머스(Programmers) 문제 풀이 (Lv1 ~ Lv4)
-- 주 2회(월•목) 온라인 미팅을 통한 지속적인 학습
+- [변경!] 주 2회(월•목)(24.11.28 ~ 25.02.21) => 주 1회(토)(25.02.22 ~ ...) 온라인 미팅을 통한 지속적인 학습
 
 ## 스터디 일정
-- 매주 월/목 오전 9시
+- [변경!] 매주 월/목 오전 9시(24.11.28 ~ 25.02.21) => 매주 토 오전 10시(25.02.22 ~ ...)
 - 플랫폼: Discord
 
 ## 진행 방식
@@ -186,6 +186,22 @@
 | 참여자 | 문제 | 비고 |
 |:---:|:---|:---:|
 | 은동혁 | • [행렬의 곱셈](https://school.programmers.co.kr/learn/courses/30/lessons/12949) <br> • [n^2 배열 자르기](https://school.programmers.co.kr/learn/courses/30/lessons/87390) <br> • [베스트앨범](https://school.programmers.co.kr/learn/courses/30/lessons/42579) |  |
+| 이용환 | - | 일정 |
+| 장소희 | - | 일정 |
+| 이인지 | - | 일정 |
+
+### 17회차 (25.02.14 금 09:00)
+| 참여자 | 문제 | 비고 |
+|:---:|:---|:---:|
+| 은동혁 | • [H-Index](https://school.programmers.co.kr/learn/courses/30/lessons/42747) <br> • [[1차] 캐시](https://school.programmers.co.kr/learn/courses/30/lessons/17680)  |  |
+| 이용환 | - | 일정 |
+| 장소희 | - | 일정 |
+| 이인지 | - | 일정 |
+
+### 18회차 (25.02.22 토 09:00)
+| 참여자 | 문제 | 비고 |
+|:---:|:---|:---:|
+| 은동혁 | • [서버 증설 횟수](https://school.programmers.co.kr/learn/courses/30/lessons/389479) <br> • [기능개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586)  |  |
 | 이용환 | - | 일정 |
 | 장소희 | - | 일정 |
 | 이인지 | - | 일정 |
