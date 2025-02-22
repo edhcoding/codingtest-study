@@ -3,6 +3,7 @@
 // players: 시간대별 이용자 수 배열 (0 ~ 23시)
 // m: 서버 한 대당 처리 가능한 최대 이용자 수
 // k: 서버 한 대가 운영 가능한 시간
+
 function solution(players, m, k) {
   let add = 0; // 총 서버 증설 횟수를 저장할 변수
   let server = new Array(24).fill(0); // 각 시간대별 서버 수를 저장할 배열
