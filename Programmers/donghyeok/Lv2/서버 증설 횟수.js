@@ -1,4 +1,4 @@
-// 서버 증설 횟숫 - https://school.programmers.co.kr/learn/courses/30/lessons/389479
+// 서버 증설 횟수 - https://school.programmers.co.kr/learn/courses/30/lessons/389479
 
 // players: 시간대별 이용자 수 배열 (0 ~ 23시)
 // m: 서버 한 대당 처리 가능한 최대 이용자 수
