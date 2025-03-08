@@ -1,3 +1,5 @@
+// https://school.programmers.co.kr/learn/courses/30/lessons/118667
+
 function solution(queue1, queue2) {
   let sum1 = queue1.reduce((acc, cur) => acc + cur, 0);
   let sum2 = queue2.reduce((acc, cur) => acc + cur, 0);
