@@ -12,10 +12,10 @@
 ## 스터디 소개
 - 알고리즘 문제 풀이 및 코드 리뷰를 통한 실력 향상
 - 프로그래머스(Programmers) 문제 풀이 (Lv1 ~ Lv4)
-- 주 2회(월•목) 온라인 미팅을 통한 지속적인 학습
+- [변경!] 주 2회(월•목)(24.11.28 ~ 25.02.21) => 주 1회(토)(25.02.22 ~ ...) 온라인 미팅을 통한 지속적인 학습
 
 ## 스터디 일정
-- 매주 월/목 오전 9시
+- [변경!] 매주 월/목 오전 9시(24.11.28 ~ 25.02.21) => 매주 토 오전 10시(25.02.22 ~ ...)
 - 플랫폼: Discord
 
 ## 진행 방식
@@ -138,6 +138,78 @@
 | 참여자 | 문제 | 비고 |
 |:---:|:---|:---:|
 | 은동혁 | • [가장 큰 수](https://school.programmers.co.kr/learn/courses/30/lessons/42746) <br> • [짝지어 제거하기](https://school.programmers.co.kr/learn/courses/30/lessons/12973) <br> • [카펫](https://school.programmers.co.kr/learn/courses/30/lessons/42842) |  |
-| 이용환 | - | 참여 |
+| 이용환 | • [체육복](https://school.programmers.co.kr/learn/courses/30/lessons/42862) <br> • [구명보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885) <br> • [조이스틱](https://school.programmers.co.kr/learn/courses/30/lessons/42860) |  |
+| 장소희 | - | 일정 |
+| 이인지 | - | 일정 |
+
+### 11회차 (25.01.13 월 09:00)
+| 참여자 | 문제 | 비고 |
+|:---:|:---|:---:|
+| 은동혁 | • [게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844) <br> • [구명보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885) <br> • [멀리뛰기](https://school.programmers.co.kr/learn/courses/30/lessons/12914) |  |
+| 이용환 | • [멀리뛰기](https://school.programmers.co.kr/learn/courses/30/lessons/12914) <br> • [큰 수 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/42883) <br> • [게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844) |  |
+| 장소희 | - | 일정 |
+| 이인지 | - | 일정 |
+
+### 12회차 (25.01.16 목 09:00)
+| 참여자 | 문제 | 비고 |
+|:---:|:---|:---:|
+| 은동혁 | • [오픈채팅방](https://school.programmers.co.kr/learn/courses/30/lessons/42862) <br> • [단속 카메라](https://school.programmers.co.kr/learn/courses/30/lessons/42884) |  |
+| 이용환 | - | 일정 |
+| 장소희 | - | 일정 |
+| 이인지 | - | 일정 |
+
+### 13회차 (25.01.20 월 09:00)
+| 참여자 | 문제 | 비고 |
+|:---:|:---|:---:|
+| 은동혁 | • [귤 고르기](https://school.programmers.co.kr/learn/courses/30/lessons/138476) <br> • [점프와 순간 이동](https://school.programmers.co.kr/learn/courses/30/lessons/12980) <br> • [N개의 최소공배수](https://school.programmers.co.kr/learn/courses/30/lessons/12953) |  |
+| 이용환 | - | 일정 |
+| 장소희 | - | 일정 |
+| 이인지 | - | 일정 |
+
+### 14회차 (25.01.23 목 09:00)
+| 참여자 | 문제 | 비고 |
+|:---:|:---|:---:|
+| 은동혁 | • [연속 부분 수열 합의 개수](https://school.programmers.co.kr/learn/courses/30/lessons/131701) <br> • [예상 대진표](https://school.programmers.co.kr/learn/courses/30/lessons/12985) <br> • [주식 가격](https://school.programmers.co.kr/learn/courses/30/lessons/42584) |  |
+| 이용환 | - | 일정 |
+| 장소희 | - | 일정 |
+| 이인지 | - | 일정 |
+
+### 15회차 (25.02.03 월 09:00)
+| 참여자 | 문제 | 비고 |
+|:---:|:---|:---:|
+| 은동혁 | • [괄호 회전하기](https://school.programmers.co.kr/learn/courses/30/lessons/76502) <br> • [할인 행사](https://school.programmers.co.kr/learn/courses/30/lessons/131127) <br> • [N-Queen](https://school.programmers.co.kr/learn/courses/30/lessons/12952) |  |
+| 이용환 | - | 일정 |
+| 장소희 | - | 일정 |
+| 이인지 | - | 일정 |
+
+### 16회차 (25.02.06 목 09:00)
+| 참여자 | 문제 | 비고 |
+|:---:|:---|:---:|
+| 은동혁 | • [행렬의 곱셈](https://school.programmers.co.kr/learn/courses/30/lessons/12949) <br> • [n^2 배열 자르기](https://school.programmers.co.kr/learn/courses/30/lessons/87390) <br> • [베스트앨범](https://school.programmers.co.kr/learn/courses/30/lessons/42579) |  |
+| 이용환 | - | 일정 |
+| 장소희 | - | 일정 |
+| 이인지 | - | 일정 |
+
+### 17회차 (25.02.14 금 09:00)
+| 참여자 | 문제 | 비고 |
+|:---:|:---|:---:|
+| 은동혁 | • [H-Index](https://school.programmers.co.kr/learn/courses/30/lessons/42747) <br> • [[1차] 캐시](https://school.programmers.co.kr/learn/courses/30/lessons/17680)  |  |
+| 이용환 | - | 일정 |
+| 장소희 | - | 일정 |
+| 이인지 | - | 일정 |
+
+### 18회차 (25.02.22 토 09:00)
+| 참여자 | 문제 | 비고 |
+|:---:|:---|:---:|
+| 은동혁 | • [서버 증설 횟수](https://school.programmers.co.kr/learn/courses/30/lessons/389479) <br> • [기능개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586)  |  |
+| 이용환 | - | 일정 |
+| 장소희 | - | 일정 |
+| 이인지 | - | 일정 |
+
+### 19회차 (25.03.08 토 09:00)
+| 참여자 | 문제 | 비고 |
+|:---:|:---|:---:|
+| 은동혁 | • [두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667) <br> • [성격 유형 검사하기](https://school.programmers.co.kr/learn/courses/30/lessons/118666)  |  |
+| 이용환 | - | 일정 |
 | 장소희 | - | 일정 |
 | 이인지 | - | 일정 |
