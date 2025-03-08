@@ -205,3 +205,11 @@
 | 이용환 | - | 일정 |
 | 장소희 | - | 일정 |
 | 이인지 | - | 일정 |
+
+### 19회차 (25.03.08 토 09:00)
+| 참여자 | 문제 | 비고 |
+|:---:|:---|:---:|
+| 은동혁 | • [두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667) <br> • [성격 유형 검사하기](https://school.programmers.co.kr/learn/courses/30/lessons/118666)  |  |
+| 이용환 | - | 일정 |
+| 장소희 | - | 일정 |
+| 이인지 | - | 일정 |
