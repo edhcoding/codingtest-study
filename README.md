@@ -218,6 +218,14 @@
 | 참여자 | 문제 | 비고 |
 |:---:|:---|:---:|
 | 은동혁 | • [유연근무제](https://school.programmers.co.kr/learn/courses/30/lessons/388351) <br> • [개인정보 수집 유효기간](https://school.programmers.co.kr/learn/courses/30/lessons/150370)  |  |
+| 이용환 | • [개인정보 수집 유효기간](https://school.programmers.co.kr/learn/courses/30/lessons/150370) | |
+| 장소희 | - | 일정 |
+| 이인지 | - | 일정 |
+
+### 21회차 (25.03.22 토 09:00)
+| 참여자 | 문제 | 비고 |
+|:---:|:---|:---:|
+| 은동혁 | • [지게차와 크레인](https://school.programmers.co.kr/learn/courses/30/lessons/388353) <br> • [이모티콘 할인행사](https://school.programmers.co.kr/learn/courses/30/lessons/150368)  |  |
 | 이용환 | - | 일정 |
 | 장소희 | - | 일정 |
 | 이인지 | - | 일정 |
