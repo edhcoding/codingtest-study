@@ -229,3 +229,11 @@
 | 이용환 | - | 일정 |
 | 장소희 | - | 일정 |
 | 이인지 | - | 일정 |
+
+### 22회차 (25.04.12 토 09:00)
+| 참여자 | 문제 | 비고 |
+|:---:|:---|:---:|
+| 은동혁 | • [성격 유형 검사하기](https://school.programmers.co.kr/learn/courses/30/lessons/118666?language=javascript) <br> • [두 수의 곱 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/120804) <br> • [신고 결과 받기](https://school.programmers.co.kr/learn/courses/30/lessons/92334)  |  |
+| 이용환 | - | 일정 |
+| 장소희 | - | 일정 |
+| 이인지 | - | 일정 |
