@@ -237,3 +237,11 @@
 | 이용환 | - | 일정 |
 | 장소희 | - | 일정 |
 | 이인지 | - | 일정 |
+
+### 23회차 (25.05.03 토 09:00)
+| 참여자 | 문제 | 비고 |
+|:---:|:---|:---:|
+| 은동혁 | • [피로도](https://school.programmers.co.kr/learn/courses/30/lessons/87946) <br> • [보석 쇼핑](https://school.programmers.co.kr/learn/courses/30/lessons/67258) <br> • [핸드폰 번호 가리기](https://school.programmers.co.kr/learn/courses/30/lessons/12948?language=javascript)  |  |
+| 이용환 | - | 일정 |
+| 장소희 | - | 일정 |
+| 이인지 | - | 일정 |
