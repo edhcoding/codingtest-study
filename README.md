@@ -245,3 +245,11 @@
 | 이용환 | - | 일정 |
 | 장소희 | - | 일정 |
 | 이인지 | - | 일정 |
+
+### 24회차 (25.05.17 토 09:00)
+| 참여자 | 문제 | 비고 |
+|:---:|:---|:---:|
+| 은동혁 | • [[1차] 뉴스 클러스터링](https://school.programmers.co.kr/learn/courses/30/lessons/17677) <br> • [튜플](https://school.programmers.co.kr/learn/courses/30/lessons/64065)|  |
+| 이용환 | - | 일정 |
+| 장소희 | - | 일정 |
+| 이인지 | - | 일정 |
