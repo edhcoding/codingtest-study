@@ -13,9 +13,9 @@ function solution(sizes) {
     const big = Math.max(w, h);
     const small = Math.min(w, h);
 
-    // 최댓값 갱신
-    maxW = Math.max(maxW, big); // 가로는 큰 값들 중 최댓값
-    maxH = Math.max(maxH, small); // 세로는 작은 값들 중 최댓값
+    // 가로 큰 값중 최댓값, 세로 작은 값중 최댓값 갱신
+    maxW = Math.max(maxW, big);
+    maxH = Math.max(maxH, small);
   }
 
   return maxW * maxH;
