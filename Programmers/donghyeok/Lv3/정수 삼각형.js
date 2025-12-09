@@ -8,9 +8,11 @@ function solution(triangle) {
         return (
           v + // 현재 값
           Math.max(
-            index < cost.length ? cost[index] : 0, // cost 왼쪽 값
-            index > 0 ? cost[index - 1] : 0 // cost 오른쪽 값
+            index < cost.length ? cost[index] : 0,
+            index > 0 ? cost[index - 1] : 0
           )
+          // 현재 값 v 기준 오른쪽 왼쪽에 값이 존재한다면 해당 값을, 없으면 0
+          // 왼쪽 값을 비교하는 이유는 삼각형 구조라서 첫번째 인덱스 기준 왼쪽에 값이 존재할 수 없음 (음수 인덱스 방지)
         );
       });
     }, [])
