@@ -4,20 +4,17 @@
 function solution(land) {
   return Math.max(
     ...land.reduce((prevRow, currentRow) => {
-      // prevRow: 이전 행까지 각 열에서 최대 합
-      // currentRow: 현재 행의 값
-
       return currentRow.map((value, colIndex) => {
-        // 현재 열(colIndex)이 아닌 이전 행의 열들 중 최댓값
         const maxFromPrev = Math.max(
-          ...prevRow.filter((_, idx) => idx !== colIndex)
+          ...prevRow.filter((_, idx) => idx !== colIndex) // 같은 열 제외
         );
-        // 현재 값 + 이전 행의 최댓값
         return value + maxFromPrev;
       });
     })
   );
 }
+// ++)
+// reduce 초기값 안주면 currenRow의 첫번째 값이 prevRow로 들어가서 초기값이됨
 
 console.log(
   solution([
