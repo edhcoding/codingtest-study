@@ -9,9 +9,12 @@ function solution(numbers) {
   // current: 현재까지 만든 숫자 문자열
   // used: 사용한 인덱스 배열
   function makeNumber(current, used) {
+    // 처음 빈 문자열은 소수 확인 건너뜀
     if (current) {
       // parseInt: 문자열 -> 숫자 변환
       const num = parseInt(current);
+
+      // num이 소수면 primes 셋에 추가
       if (isPrime(num)) primes.add(num);
     }
 
@@ -34,7 +37,7 @@ function solution(numbers) {
 function isPrime(num) {
   if (num < 2) return false; // 0 1 소수 아님
 
-  // num을 2부터 i의 제곱만큼의 범위만 확인
+  // num을 2부터 i의 제곱만큼의 범위 까지 확인
   for (let i = 2; i * i <= num; i++) {
     if (num % i === 0) return false; // 그중에서도 나누어 떨어지면 소수 아님
   }
