@@ -5,6 +5,7 @@
  * - 좌표 2배 확장: ㄷ자 모양 등에서 대각선으로 잘못 지나가는 것 방지
  * - 테두리만 1로 표시하고 BFS로 최단거리 탐색
  */
+
 function solution(rectangle, characterX, characterY, itemX, itemY) {
   // 좌표 최대 50 → 2배 확장 시 100, 여유있게 102x102 그리드 생성
   const GRID_SIZE = 102;
